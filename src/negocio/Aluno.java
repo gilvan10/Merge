@@ -10,5 +10,22 @@ package negocio;
  * @author renata
  */
 public class Aluno {
-    
+  
+  private string matricula; 
+  private string nome; 
+  private string cpf; 
+  private string endereco; 
+  private string idade; 
+
+  public Aluno() {
+  }   
+
+  public Aluno(string matricula,string nome, string cpf,
+                string endereco, string idade) {
+     this.matricula = matricula; 
+     this.nome = nome; 
+     this.cpf = cpf; 
+     this.endereco = endereco; 
+     this.idade = idade; 
+  }
 }
