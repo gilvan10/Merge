@@ -15,17 +15,17 @@ public class Aluno {
   private string nome; 
   private string cpf; 
   private string endereco; 
-  private string idade; 
+ 
 
   public Aluno() {
   }   
 
   public Aluno(string matricula,string nome, string cpf,
-                string endereco, string idade) {
+                string endereco) {
      this.matricula = matricula; 
      this.nome = nome; 
      this.cpf = cpf; 
      this.endereco = endereco; 
-     this.idade = idade; 
+      
   }
 }
